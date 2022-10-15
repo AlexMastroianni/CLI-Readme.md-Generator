@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./utils/generateMarkdown");
+// const generateMarkdown = require("./utils/generateMarkdown");
 const { type } = require("os");
 
 // TODO: Create an array of questions for user input
@@ -23,20 +23,6 @@ const questions = [
     type: "input",
     name: "description",
     message: "Please enter a description of your project",
-    validate: (title) => {
-      if (title) {
-        return true;
-      } else {
-        console.log("Error! Please enter a project title");
-        return false;
-      }
-    },
-  },
-  {
-    type: "checkbox",
-    name: "tableOfContens",
-    message: "Would you like to add a table of contents?",
-    choices: ["Yes", "No"],
     validate: (title) => {
       if (title) {
         return true;
@@ -82,7 +68,7 @@ const questions = [
       "MIT",
       "Mozilla-Public",
       "GNU-General-Public",
-      "Common-Development-and Distribution",
+      "BSD",
       "None",
     ],
     validate: (title) => {
@@ -107,17 +93,17 @@ const questions = [
   {
     type: "input",
     name: "github",
-    message: "Please your github user name",
+    message: "Please link your Github Account",
   },
   {
     type: "input",
     name: "repo",
-    message: "Please your github repo name",
+    message: "Please link your Github Repo",
   },
   {
     type: "input",
     name: "deploymentlink",
-    message: "Please add your Deployment link ",
+    message: "Please link your deployment site",
   },
 ];
 
