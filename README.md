@@ -1,6 +1,6 @@
-# demo title
+# Test
   ## Licensing:
-![badge](https://img.shields.io/badge/license-MIT-brightorange)
+![badge](https://img.shields.io/badge/license-Mozilla-Public-brightorange)
 
 
 
@@ -12,16 +12,16 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  demo desc
+  Test
   ## Installation:
-  demo installation
+  Test
   ## Usage:
-  demo usage
+  Test
 
   ## Contribution:
-  demo contributing
+  Test
   ## Testing:
-  demo testing
+  Tes
   ## Additional Info:
-  - Github: [demoGithub](https://github.com/demoGithub)
-  - Email: demo@email.com 
+  - Github: [Test](https://github.com/Test)
+  - Email: Test 
