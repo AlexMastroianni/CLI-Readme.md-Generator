@@ -1,4 +1,4 @@
-# dfgsdfg
+# Demo Title
   ## Licensing:
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,16 +12,16 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  d
+  Demo Desc
   ## Installation:
-  dfg
+  Demo infomation
   ## Usage:
-  dfg
+  Demo Usage
 
   ## Contribution:
-  dfg
+  Demo contributing
   ## Testing:
-  dfg
+  Demo Testing
   ## Additional Info:
-  - Github: [dfg](https://github.com/dfg)
-  - Email: dfg 
+  - Github: [alexmastroianni](https://github.com/alexmastroianni)
+  - Email: alex.m.mastroianni@gmail.com 
