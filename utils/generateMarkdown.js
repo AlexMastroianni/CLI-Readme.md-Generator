@@ -1,6 +1,6 @@
 let license = "";
 
-// function to get correct lisence
+// function to get correct lisence badge
 function renderLicenseBadge(data) {
   license = `${data.licensing}`;
   if (data.licensing == "MIT") {
