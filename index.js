@@ -3,7 +3,7 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 const renderLicenseBadge = require("./utils/generateMarkdown");
 
-//user promt questions
+//user promt questions to answer
 const questions = [
   {
     type: "input",
