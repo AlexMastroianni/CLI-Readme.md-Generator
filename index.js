@@ -3,6 +3,7 @@ const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 const renderLicenseBadge = require("./utils/generateMarkdown");
 
+//user promt questions
 const questions = [
   {
     type: "input",
@@ -110,15 +111,14 @@ const questions = [
   },
 ];
 
-// TODO: Create a function to write README file
-// Function to write README file
+//function to write to file
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) => {
     if (err) throw err;
     console.log("Success! Check out the new readMe.md");
   });
 }
-
+//function linking to generateMarkdown.js to render the markdown with all the infomation
 function init() {
   inquirer.prompt(questions).then(function (userInput) {
     console.log(userInput);
@@ -127,5 +127,4 @@ function init() {
   });
 }
 
-// Function call to initialize app
 init();
